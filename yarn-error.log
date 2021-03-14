@@ -1,0 +1,63 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add @react-navegation/bottom-tabs
+
+PATH: 
+  C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Aprender React Nativ\bin;C:\Python27;C:\Python27\Scripts;C:\Program Files\AdoptOpenJDK\jdk-11.0.7.10-hotspot\bin;C:\Users\Isaque Veras\Documents\chocolatey;C:\Users\Isaque Veras\AppData\Local\Android\Sdk\platform-tools;C:\Windows\System32;C:\user\local\node_modules\create-react-app;C:\Program Files\PuTTY;C:\Users\Isaque Veras\AppData\Roaming\Composer\vendor\bin;C:\Program Files\nodejs;C:\Program Files (x86)\Yarn\bin;C:\Program Files\Git\cmd;C:\Users\Isaque Veras\AppData\Local\Android\Sdk\platform-tools;C:\Users\Isaque Veras\AppData\Local\Android\Sdk\tools;C:\Users\Aprender React Nativ\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Aprender React Nativ\AppData\Roaming\npm;C:\Users\Aprender React Nativ\AppData\Local\Yarn\bin;C:\Windows\system32\WindowsPowerShell\v1.0.
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  12.18.3
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@react-navegation%2fbottom-tabs: Not found
+      at Request.params.callback [as _callback] (C:\Program Files (x86)\Yarn\lib\cli.js:66096:18)
+      at Request.self.callback (C:\Program Files (x86)\Yarn\lib\cli.js:140748:22)
+      at Request.emit (events.js:315:20)
+      at Request.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:141720:10)
+      at Request.emit (events.js:315:20)
+      at IncomingMessage.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:141642:12)
+      at Object.onceWrapper (events.js:421:28)
+      at IncomingMessage.emit (events.js:327:22)
+      at endReadableNT (_stream_readable.js:1220:12)
+      at processTicksAndRejections (internal/process/task_queues.js:84:21)
+
+npm manifest: 
+  {
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "web": "expo start --web",
+      "eject": "expo eject"
+    },
+    "dependencies": {
+      "@react-navigation/native": "^5.7.5",
+      "expo": "~39.0.2",
+      "expo-status-bar": "~1.0.2",
+      "react": "16.13.1",
+      "react-dom": "16.13.1",
+      "react-native": "https://github.com/expo/react-native/archive/sdk-39.0.2.tar.gz",
+      "react-native-web": "~0.13.12",
+      "react-native-gesture-handler": "~1.7.0",
+      "react-native-reanimated": "~1.13.0",
+      "react-native-screens": "~2.10.1",
+      "react-native-safe-area-context": "3.1.4",
+      "@react-native-community/masked-view": "0.1.10"
+    },
+    "devDependencies": {
+      "@babel/core": "~7.9.0"
+    },
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
